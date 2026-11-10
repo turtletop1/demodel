@@ -1,0 +1,34 @@
+demodel/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── styles.css
+    ├── runtime/
+    │   ├── types.ts
+    │   ├── mesh.ts
+    │   ├── deform.ts
+    │   ├── evaluate.ts
+    │   ├── io.ts
+    │   ├── index.ts
+    │   └── renderer/
+    │       ├── shaders.ts
+    │       ├── LayerGL.ts
+    │       └── Renderer.ts
+    ├── editor/
+    │   ├── psd.ts
+    │   ├── store.ts
+    │   └── useRenderer.ts
+    └── ui/
+        ├── Toolbar.tsx
+        ├── LayerList.tsx
+        ├── Viewport.tsx
+        ├── MeshPanel.tsx
+        ├── SkeletonPanel.tsx
+        ├── Timeline.tsx
+        └── Inspector.tsx
